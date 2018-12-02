@@ -22,7 +22,7 @@ public class alertExample {
 		
 		System.out.println(driver.switchTo().alert().getText());
 		driver.switchTo().alert().accept();
-		//
+		
 	}
 
 }
