@@ -54,5 +54,6 @@ public class PrintTable {
 		 * (driver.findElements(By.xpath("//table[@id='customers']//tr//td")));
 		 * } }
 		 */
+		driver.close();
 	}
 }
