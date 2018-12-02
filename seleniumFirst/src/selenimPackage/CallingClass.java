@@ -16,6 +16,7 @@ public class CallingClass {
 		driver.findElement(By.id("email")).sendKeys("abc");
 		driver.findElement(By.id("pass")).sendKeys("123");
 		driver.findElement(By.linkText("Forgotten account?")).click();
+		//test
 		driver.findElement(By.id("u_0_3")).click();
 		// driver.navigate().to(arg0);
 		// driver.navigate().refresh();
